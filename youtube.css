@@ -56,12 +56,20 @@
   grid-template-columns: 12% 88%;
   margin-top: 60px;
 }
-#leftNav {
-  /* border-right: solid rgb(235, 235, 235) 1px; */
-  /* min-height: 700px; */
+#insideSideNav {
+  /* width: 130px; */
+  position: fixed;
+  /* z-index: 1; */
+  /* top: 20px;
+  left: 10px; */
+  background: white;
+  overflow-x: scroll;
+  /* padding: 8px 0; */
+  height: 700px;
 }
-#leftNav > div {
+#leftNav > div > div {
   height: 30px;
+  width: 100%;
   margin: 5px;
   border-bottom: solid rgb(235, 235, 235) 1px;
   font-size: 18px;
@@ -77,11 +85,12 @@
   grid-gap: 1%;
   margin-top: 50px;
 }
-#videoDiv div {
+#videoDiv > div {
   margin-bottom: 20px;
 }
 #videoDiv iframe {
   margin-bottom: 40px;
+  border: none;
 }
 /*   width: 20%;
                 height: 100%;
